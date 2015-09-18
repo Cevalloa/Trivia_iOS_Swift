@@ -9,7 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK: IBOutlet Properties
+    @IBOutlet weak var funFactLabel: UILabel!
+    
     //MARK: View Controller Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +27,35 @@ class ViewController: UIViewController {
     //MARK: IBAction Methods
     @IBAction func showFunFact() {
         
-        println("You pressed me!")
+        let factsArray = ["Ants stretch when they wake up in the morning.", "Ostritches can run faster than horses."]
+        funFactLabel.text = factsArray[1]
+        
+//        var bestInstanceEva = SecondBestClassEver()
+//        bestInstanceEva.methodBestEver()
     }
 }
+
+//protocol TheBestDelegateEver {
+//    func didRunBestDelegateEver()
+//}
+//
+//class BestClassEver : TheBestDelegateEver {
+//    func didRunBestDelegateEver() {
+//         println("didRunIt!")
+//    }
+//}
+//
+//class SecondBestClassEver {
+//    var bestInstanceOfDelegate : TheBestDelegateEver?
+//    
+//    func methodBestEver() {
+//        
+//        println("RUN IT !")
+//        var classo = BestClassEver()
+//        
+//       self.bestInstanceOfDelegate = classo
+//        self.bestInstanceOfDelegate?.didRunBestDelegateEver()
+//    }
+//}
+
 
