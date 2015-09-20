@@ -13,6 +13,7 @@
 		6C18F4BA1B9D3891001CE71C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C18F4B91B9D3891001CE71C /* Images.xcassets */; };
 		6C18F4BD1B9D3891001CE71C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C18F4BB1B9D3891001CE71C /* LaunchScreen.xib */; };
 		6C18F4C91B9D3892001CE71C /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18F4C81B9D3892001CE71C /* FunFactsTests.swift */; };
+		6C5323A51BAE534500C629A3 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5323A41BAE534500C629A3 /* FactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		6C18F4C71B9D3892001CE71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C18F4C81B9D3892001CE71C /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
 		6C18F4D21B9D3A99001CE71C /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Scratchpad.playground; path = FunFacts/Scratchpad.playground; sourceTree = "<group>"; };
+		6C5323A41BAE534500C629A3 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				6C18F4B21B9D3891001CE71C /* AppDelegate.swift */,
 				6C18F4B41B9D3891001CE71C /* ViewController.swift */,
+				6C5323A41BAE534500C629A3 /* FactBook.swift */,
 				6C18F4B61B9D3891001CE71C /* Main.storyboard */,
 				6C18F4B91B9D3891001CE71C /* Images.xcassets */,
 				6C18F4BB1B9D3891001CE71C /* LaunchScreen.xib */,
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C18F4B51B9D3891001CE71C /* ViewController.swift in Sources */,
+				6C5323A51BAE534500C629A3 /* FactBook.swift in Sources */,
 				6C18F4B31B9D3891001CE71C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +423,7 @@
 				6C18F4CE1B9D3892001CE71C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C18F4CF1B9D3892001CE71C /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				6C18F4D11B9D3892001CE71C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

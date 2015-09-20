@@ -13,10 +13,15 @@ class ViewController: UIViewController {
     //MARK: IBOutlet Properties
     @IBOutlet weak var funFactLabel: UILabel!
     
+    //MARK: Modals
+    let factBook = FactBook()
+    
     //MARK: View Controller Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        funFactLabel.text = factBook.factArray[0]
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,8 +32,8 @@ class ViewController: UIViewController {
     //MARK: IBAction Methods
     @IBAction func showFunFact() {
         
-        let factsArray = ["Ants stretch when they wake up in the morning.", "Ostritches can run faster than horses."]
-        funFactLabel.text = factsArray[1]
+
+    funFactLabel.text = factBook.factArray[1]
         
 //        var bestInstanceEva = SecondBestClassEver()
 //        bestInstanceEva.methodBestEver()
